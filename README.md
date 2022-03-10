@@ -1,4 +1,4 @@
-# Perceptron-Algorithm
+# Perceptron-Rosenblatt and Adaline-Algorithm
 The problem of parsing a set of 50 points in a 6-dimensional plane without using Neural Networks libraries.
 ## Perceptron Algorithm 
 The perceptron model is more general than the McCulloch-Pitts neuron in terms of computation. It takes an input, aggregates it (weighted sum), and only returns 1 if the aggregated amount above a certain threshold; otherwise, it returns 0.We'd end up with something like this if we rewrote the threshold as indicated above as a constant input with a variable weight:    <br/>
