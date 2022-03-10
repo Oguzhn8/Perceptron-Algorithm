@@ -22,3 +22,11 @@ Again, we created 50 points between -10 and 10 on the 6-dimensional plane. But t
 It was a data set that could not be seperable. When we train the dataset we found that it was very different from the success rate and the time it took to reach the right weights.
 Since Perceptron achieved high success on linearly separable datasets, we saw that we correctly divided our dataset into two non-linearly separable groups.
 Create two classes that cannot be linearly seperable, train the model, and see the results in 1B file.
+
+### Separating twolinearly non-seperable classes with Rosenblatt's Perceptron.
+When we plotted the dataset, we got the following picture. <br/>
+![screenshot 47](https://user-images.githubusercontent.com/78887209/157647675-1bff73cf-18ef-4f6b-8e27-2a10651e60ab.jpg) <br/>
+As you can see, we can correctly divide the data set into two classes with 3 lines.
+We chose the intermediate layers of the Rosenblatt Perceptron according to these 3 lines and trained our dataset.
+As can be seen from the picture, with these 3 lines, our data set should have been divided into two classes with 100% success.
+The result was as we expected. You can see the codes in file 2A. <br/>
