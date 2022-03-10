@@ -17,3 +17,8 @@ However, the number of steps required to reach the correct weights has grown con
 ### c.Differential ordering of the training set
 Differential ordering of the training set had no effect on either our success rate or the number of steps needed to reach the correct weights. <br/>
 You can see the codes of our tests in the 1A file.
+### Using the perceptron for two classes that cannot be linearly seperable (1B FİLE)
+Again, we created 50 points between -10 and 10 on the 6-dimensional plane. But this time we ensured that if our 3rd data in the randomlist is between -5 and 5, it is in one class and not in the other class.Thus, we have created two classes that can be separated by at least two lines or planes.
+It was a data set that could not be seperable. When we train the dataset we found that it was very different from the success rate and the time it took to reach the right weights.
+Since Perceptron achieved high success on linearly separable datasets, we saw that we correctly divided our dataset into two non-linearly separable groups.
+Create two classes that cannot be linearly seperable, train the model, and see the results in 1B file.
