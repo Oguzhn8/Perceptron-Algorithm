@@ -31,7 +31,7 @@ We chose the intermediate layers of the Rosenblatt Perceptron according to these
 As can be seen from the picture, with these 3 lines, our data set should have been divided into two classes with 100% success.
 The result was as we expected. You can see the codes in file 2A. <br/>
 ## Approximate function with Adaline
-The function is as follows:
+The function is as follows:  <br/>
 ![screenshot 48](https://user-images.githubusercontent.com/78887209/157650497-d479fcc9-e1b7-4034-9639-9ec1ff5d4a01.jpg) <br/>
 First of all, we created a dataset with 125 data. And we divided this dataset into 75-50 as training and test sets.When training our training set, we set our stopping criterion at 5.5 percent of the mean squared error.We determined it to be small. According to the 0.0025-0.0035 error values ​​we obtained in the test set our stopping criterion is adequate for our test set and our model looks successful.
 The codes are in the file named 3.
